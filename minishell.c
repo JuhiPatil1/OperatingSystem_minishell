@@ -108,7 +108,7 @@ void run_execprocc(){
 		 	int status;
 			int ret;
 			char * status_process;
-            printf("List of Background process:\n");
+            printf("List of process:\n");
             for (int i=0;i < proc_historyLength ;i++)
             {
 				ret = waitpid(proc_historypid[i], &status, WUNTRACED);
